@@ -1,0 +1,1 @@
+Please see FIRST_D7.4 document for the requieres libraries
