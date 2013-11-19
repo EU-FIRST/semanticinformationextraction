@@ -29,7 +29,7 @@ This file is part of WP4  Semantic  Information Extraction  Components.
 Copyright (c) 2013, University of Hohenheim Department of Informations Systems 2
 
 The WP4 Semantic Information Extraction Components are copyrighted material, which are made available to anyone wishing to use, modify,
-copy, or redistribute it subject to the terms and conditions of the GNtU Lesser
+copy, or redistribute it subject to the terms and conditions of the GNU Lesser
 General Public License, as published by the Free Software Foundation.
 
 WP4  Semantic Information Extraction Components are distributed in the hope that it will be useful,
