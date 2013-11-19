@@ -3,8 +3,9 @@ Semantic Information Extraction
 
 Version 1.0
 Release date: 30/09/2013
--------------------------------------------------------------------------------
+
 Project description
+-------------------------------------------------------------------------------
 
 In  the  FIRST  project  the  conceptual  work  of  (Klein,  Altuntas,  Kessler,  &  Häusser,  2011)  has 
 been  implemented,  extended  and  optimized  leading  to  the  WP4  Semantic  Information Extraction  Components  described  in  FIRST D4.1 and  FIRST  D4.2.  The  latter  presents  the  steps  that  have  been 
@@ -20,8 +21,8 @@ Klein, A., Altuntas, O., Riekert, M. & Dinev, V. (2013). A Combined Approach for
 
 The deliverables FIRST D4.1, D4.2 and D4.3 can be downloaded from http://project-first.eu/public_deliverables.
 
--------------------------------------------------------------------------------
 License
+-------------------------------------------------------------------------------
 
 This file is part of WP4  Semantic  Information Extraction  Components.
 
@@ -39,8 +40,8 @@ for more details.
 You should have received a copy of the GNU Lesser General Public License
 along with this distribution. If not, see <http://www.gnu.org/licenses/>
 
--------------------------------------------------------------------------------
 Installation instructions
+-------------------------------------------------------------------------------
 
 To Install  WP4  Semantic  Information  Extraction  Components please follow the instructions given in the provided deliverable FIRST D7.4 in chapter 3.3.
 
