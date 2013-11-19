@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project FIRST_PIPELINE with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+	<property file="build.properties"></property>
+	<target name="create_run_jar">
+        <jar destfile="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver.jar">
+            <manifest>
+                <attribute 	name="Main-Class" 
+                			value="zeroMQ.receiver.CompletePipelineReceiver"/>
+                <attribute name="Class-Path" value=". 
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/activation.jar 
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/ant-contrib-1.0b2.jar 
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/ant-junit.jar 
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/ant-launcher.jar 
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/ant-nodeps.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/ant.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/antlr-2.7.6.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/bcmail-jdk15-1.45.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/bcprov-jdk15-1.45.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/Bib2HTML.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-collections-3.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-compress-1.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-discovery-0.2.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-fileupload-1.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-io-2.0.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-lang-2.4.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-logging-1.1.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/concurrent.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/dom4j-1.6.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/fontbox-1.1.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/geronimo-ws-metadata_2.0_spec-1.1.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/GnuGetOpt.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/hibernate-jpa-2.0-api-1.0.1.Final.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/hibernate3.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/icu4j.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jakarta-oro-2.0.5.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jargs.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/javacc.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/javassist-3.12.0.GA.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jaxb-api-2.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jaxen-1.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jaxws-api-2.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jcifs-1.3.17.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jdom.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jempbox-1.1.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jta-1.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/junit.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/log4j-1.2.14.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/lubm.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/lucene-core-3.0.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/mail.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/nekohtml-1.9.14.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/ojdbc14.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/pdfbox-1.1.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/pg73jdbc3.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/poi-3.6.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/poi-ooxml-3.6.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/poi-ooxml-schemas-3.6.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/poi-scratchpad-3.6.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/slf4j-api-1.6.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/spring-aop-2.0.8.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/spring-beans-2.0.8.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/spring-core-2.0.8.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/stax-api-1.0.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/tika-core-0.7.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/tika-parsers-0.7.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/wstx-lgpl-3.2.3.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/xercesImpl.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/xmlbeans-2.3.0.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/xmlunit-1.2.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/xpp3-1.1.3.3_min.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/xstream-1.3.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-collections-3.2.1.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/commons-configuration-1.6.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/zmq.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/log4j-1.2.16.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/messenger-nj-0.0.3-SNAPSHOT.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/sqljdbc4.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/sqljdbc.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/gate-asm.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/gate-compiler-jdt.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/gate.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/opencsv-2.3.jar 
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/gateHmm.jar
+                	CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib/jeromq-0.3.0-SNAPSHOT.jar"/>
+
+            </manifest>
+            <fileset dir="${currentProjectDir}/bin"/>
+        </jar>
+        <delete dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <mkdir dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/activation.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/ant-contrib-1.0b2.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/ant-junit.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/ant-launcher.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/ant-nodeps.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/ant.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/antlr-2.7.6.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/bcmail-jdk15-1.45.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/bcprov-jdk15-1.45.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/Bib2HTML.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-collections-3.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-compress-1.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-discovery-0.2.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-fileupload-1.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-io-2.0.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-lang-2.4.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-logging-1.1.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/concurrent.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/dom4j-1.6.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/fontbox-1.1.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/geronimo-ws-metadata_2.0_spec-1.1.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/GnuGetOpt.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/hibernate3.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/icu4j.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jakarta-oro-2.0.5.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jargs.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/javacc.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/javassist-3.12.0.GA.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jaxb-api-2.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jaxen-1.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jaxws-api-2.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jcifs-1.3.17.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>     
+        <copy file="${currentProjectDir}/lib/jdom.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jempbox-1.1.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/jta-1.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/junit.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/log4j-1.2.14.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/lubm.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/lucene-core-3.0.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/mail.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/nekohtml-1.9.14.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/ojdbc14.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/pdfbox-1.1.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/pg73jdbc3.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/poi-3.6.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/poi-ooxml-3.6.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/poi-ooxml-schemas-3.6.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/poi-scratchpad-3.6.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/slf4j-api-1.6.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/spring-aop-2.0.8.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/spring-beans-2.0.8.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/spring-core-2.0.8.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/stax-api-1.0.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/tika-core-0.7.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/tika-parsers-0.7.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/wstx-lgpl-3.2.3.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/xercesImpl.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/xmlbeans-2.3.0.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/xmlunit-1.2.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/xpp3-1.1.3.3_min.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/xstream-1.3.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-collections-3.2.1.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/commons-configuration-1.6.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/log4j-1.2.16.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/messenger-nj-0.0.3-SNAPSHOT.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/sqljdbc4.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/sqljdbc.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/gate-asm.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/gate-compiler-jdt.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/gate.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+        <copy file="${currentProjectDir}/lib/gateHmm.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+		<copy file="${currentProjectDir}/lib/opencsv-2.3.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+		<copy file="${currentProjectDir}/lib/jeromq-0.3.0-SNAPSHOT.jar" todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/CompleteJSIKnowledgeBasedCrispClassificationReceiver_lib"/>
+    	<!-- LGR copy current hibernate configuration -->
+		
+    	<copy 	file="${currentProjectDir}/hibernate.cfg.xml" 
+    			todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver">
+    		<filterchain>
+				<replacestring 	from="name=&quot;hibernate.connection.username&quot;>${currentLogin}"
+								to="name=&quot;hibernate.connection.username&quot;>${newLogin}"/>
+				
+				<replacestring 	from="jdbc:sqlserver://${currentDBServerIP};databaseName=${currentDatabase}"
+								to="jdbc:sqlserver://${newDBServerIP};databaseName=${newDatabase}"/>
+				
+				<replacestring 	from="name=&quot;hibernate.default.catalog&quot;>${currentDatabase}"
+								to="name=&quot;hibernate.default.catalog&quot;>${newDatabase}"/>
+ 
+				<replacestring from="name=&quot;hibernate.connection.password&quot;>${currentPassword}"
+							to="name=&quot;hibernate.connection.password&quot;>${newPassword}"/>
+			</filterchain>
+    	</copy>
+		
+    	<delete dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/hibernateConf"/>
+    	<mkdir dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/hibernateConf"/>
+    	
+    	    	
+    	<copy todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/hibernateConf">
+    		<fileset dir="${currentProjectDir}/hibernateConf" includes="*.hbm.xml"></fileset>
+    		<filterchain>
+    		
+    			<!-- " maskieren -->
+		
+    			<replacestring from="catalog=&quot;${currentDatabase}&quot;" to="catalog=&quot;${newDatabase}&quot;"/>
+    		</filterchain>
+    	</copy>
+		
+		
+    	<delete dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/lib/plugins"></delete>
+    	<mkdir dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/lib/plugins"/>
+    	<copy todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/lib/plugins">
+    		<fileset dir="${currentProjectDir}/lib/plugins"></fileset>
+    	</copy>
+    	<delete dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/resources"></delete>
+    	<mkdir dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/resources"/>
+    	<copy todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/resources">
+    		<fileset dir="${currentProjectDir}/resources"></fileset>
+    	</copy>
+    	<delete dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/resources"></delete>
+    	<mkdir dir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/resources"/>
+    	<copy todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver/resources">
+    		<fileset dir="${currentProjectDir}/resources"></fileset>
+    	</copy>
+		
+		<copy todir="${currentProjectDir}/antScripts/CompleteJSIKnowledgeBasedCrispClassificationReceiver">
+			<fileset dir="${currentProjectDir}" includes="*.dll"></fileset>
+		</copy>
+    </target>
+</project>

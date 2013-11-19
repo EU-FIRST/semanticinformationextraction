@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+    <session-factory name="sessionFactory">    	
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.connection.password">ENTER-PASSWORD-HERE</property>
+        <property name="hibernate.connection.url">DATABASE-CONNECTION</property>
+        <!--
+         	Connection URL for MSSQL-Server and Windows Authentication
+         	jdbc:sqlserver://localhost;integratedSecurity=true;
+        -->
+        <property name="hibernate.connection.username">USERNAME</property>
+        <property name="hibernate.default_schema">DBSCHEMA</property>
+        <property name="hibernate.default.catalog">FIRST_DB</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+    
+        <property name="hibernate.show_sql">true</property>
+  		<property name="hibernate.format_sql">true</property>
+  		<property name="hibernate.generate_statistics">true</property>
+   
+        <mapping file="./hibernateConf/SentimentLevelDefinition.hbm.xml" />
+        <mapping file="./hibernateConf/Sentiment.hbm.xml" />
+        <mapping file="./hibernateConf/DocumentVersion.hbm.xml" />
+        <mapping file="./hibernateConf/CorpusMetaData.hbm.xml" />
+        <mapping file="./hibernateConf/DocumentMetaData.hbm.xml" />
+        <mapping file="./hibernateConf/CorpusRelation.hbm.xml" />
+        <mapping file="./hibernateConf/Indicator.hbm.xml" />
+        <mapping file="./hibernateConf/SentimentObject.hbm.xml" />
+        <mapping file="./hibernateConf/Phrase.hbm.xml" />
+        <mapping file="./hibernateConf/DocumentType.hbm.xml" />
+        <mapping file="./hibernateConf/SentimentObjectType.hbm.xml" />
+        <mapping file="./hibernateConf/SentimentFeatureType.hbm.xml" />
+        <mapping file="./hibernateConf/IndicatorType.hbm.xml" />
+        <mapping file="./hibernateConf/DegreeOfMembership.hbm.xml" />
+        <mapping file="./hibernateConf/PhraseType.hbm.xml" />
+        <mapping file="./hibernateConf/Website.hbm.xml" />
+        <mapping file="./hibernateConf/SentimentObjectProperty.hbm.xml" />
+        <mapping file="./hibernateConf/URL.hbm.xml" />
+        <mapping file="./hibernateConf/QueryParameter.hbm.xml" />
+        <mapping file="./hibernateConf/SentimentphraseRelation.hbm.xml"/>
+        <mapping file="./hibernateConf/SentimentIndicator.hbm.xml"/>
+        <mapping file="./hibernateConf/SentimentClassifierType.hbm.xml"/>       
+    </session-factory>
+</hibernate-configuration>
